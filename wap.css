@@ -115,6 +115,14 @@ html,body{
     -webkit-transform: translate(0,0);
     transition: 1s;
 }
+.a2 h3{
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    font-size: 30px;
+    left: 20%;
+    top: 70%;
+}
 .a2 img:nth-child(2){
     transform: translate(-440px,1232px);
     -webkit-transform: translate(-440px,1232px);
@@ -151,6 +159,10 @@ html,body{
 .a3 p:nth-child(6){
     background: url(img_page1/c6.png) no-repeat;
 }
+.a3 p:nth-child(7){
+    left:100%;
+    top:80%;
+}
 #a3 p:nth-child(1){
     left: 20% ;
     top:80%;
@@ -174,6 +186,17 @@ html,body{
 #a3 p:nth-child(6){
     left: 20% ;
     top:30%;
+}
+#a3 p:nth-child(7){
+    left: 38% ;
+    top:30%;
+    width: 62%;
+    height: 60%;
+    background: white;
+    opacity: .4;
+    font-family: "Microsoft Yahei";
+    font-size: 35px;
+    color: red;
 }
 #a3 p{
     transform: rotate(1800deg);
