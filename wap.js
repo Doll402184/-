@@ -59,7 +59,8 @@ function end(e) {
     }
 }
 document.addEventListener("touchmove",function(){
-})
+
+});
 function show1(){
     oLis[0].firstElementChild.id='a0';
 }
