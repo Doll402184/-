@@ -31,19 +31,18 @@ html,body{
 }
 #list li:nth-child(1){
     background: url(img_page1/31.jpg) no-repeat;
-    background-size:cover;
+     
 }
 #list li:nth-child(2){
     background: url(img_page1/21.gif) no-repeat;
-    background-size:cover;
+    
 }
 #list li:nth-child(3){
     background: url(img_page1/33.gif) no-repeat;
-    background-size:cover;
+     
 }
 #list li:nth-child(4){
     background: url(img_page1/c.png) no-repeat;
-    background-size:cover;
 }
 #list li.zIndex{
     z-index: 10;
