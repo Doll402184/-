@@ -2,6 +2,8 @@ var main = document.querySelector("#main");
 var oLis = document.querySelectorAll("#list>li");
 var winW = document.documentElement.clientWidth;
 var winH = document.documentElement.clientHeight;
+var mus=document.querySelector('#mus');
+var mu1=document.querySelector('#mus1');
 var desW = 640;
 var desH = 960;
 if (winW / winH <= desW / desH) {
@@ -38,7 +40,7 @@ function move(e) {
         this.prevSIndex = (index == 0 ? oLis.length - 1 : index - 1);
         var duration = -winH+pos;
 
-    } else if (pos) {
+    } else if (pos<0) {
         this.prevSIndex = (index == oLis.length-1 ? 0 : index + 1);
         var duration = winH+pos;
     }
@@ -58,8 +60,15 @@ function end(e) {
         }, false)
     }
 }
+mus.onclick=function(){
+    if(mu1.paused){
+        mu1.play();
+    }else{
+        mu1.pause();
+    }
+}
 document.addEventListener("touchmove",function(){
-o
+
 });
 function show1(){
     oLis[0].firstElementChild.id='a0';
